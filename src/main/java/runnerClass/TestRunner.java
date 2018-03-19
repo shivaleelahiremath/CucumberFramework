@@ -7,7 +7,7 @@ import cucumber.api.junit.Cucumber;
 
 	@RunWith(Cucumber.class)
 	@CucumberOptions(
-			features = "/Users/shivaleelah/Documents/workspace/Luna/CucumberProject/src/main/java/features/login.feature",
+			features = "/Users/shivaleelah/Documents/workspace/Luna/CucumberProject/src/main/java/features/login_DDT_DataTable.feature",
 			glue = {"stepDeffinations"},
 			monochrome = true,
 			format = {"pretty","html:test-output"},
